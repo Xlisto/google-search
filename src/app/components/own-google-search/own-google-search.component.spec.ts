@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { SaveResultsComponent } from './save-results.component';
+import { OwnGoogleSearchComponent } from './own-google-search.component';
 
-describe('SaveResultsComponent', () => {
-  let component: SaveResultsComponent;
-  let fixture: ComponentFixture<SaveResultsComponent>;
+describe('OwnGoogleSearchComponent', () => {
+  let component: OwnGoogleSearchComponent;
+  let fixture: ComponentFixture<OwnGoogleSearchComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ SaveResultsComponent ]
+      declarations: [ OwnGoogleSearchComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(SaveResultsComponent);
+    fixture = TestBed.createComponent(OwnGoogleSearchComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
